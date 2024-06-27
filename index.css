@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Protest+Guerrilla&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+.logo{
+
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+font-size: 6.2rem;
+margin: auto;
+background-color: rgb(224, 154, 32);
+width: 100%;
+}
+
+
+.addform{
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(232, 123, 34);
+  width: 100%;
+  
+
+ 
+}
+
+.list-container{
+  position: relative;
+
+
+}
+.list{
+  background-color: rgb(85, 55, 34);
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  color: rgb(218, 184, 116);
+  background-color: rgb(85, 55, 34);
+  min-height: 400px;
+
+
+  padding: 20px;
+  font-weight: 600;
+ 
+
+
+}
+
+
+
+.description
+{
+
+ list-style: none;
+ font-size: 1.2rem;
+ margin: 0px 40px;
+}
+.footer{
+  justify-content: center;
+  display: flex;
+  
+  
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  background-color: rgb(91, 194, 163);
+  width: 100%;
+  font-weight: 600;
+  color: rgb(69, 25, 6);
+  font-size: large;
+
+  
+}
+
+.inputofform{
+
+ padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  color: rgb(69, 25, 6);
+  background-color: bisque;
+  width: 250px;
+
+  border: 2px solid rgb(232, 123, 34);
+}
+
+.option{
+  
+  padding: 20px;
+  border: 2px solid rgb(232, 123, 34);
+  color: rgb(69, 25, 6);
+  margin: 10px 10px;
+  border-top: 20px;
+  margin-left: 20px;
+
+  border-radius: 20px;
+  background-color:  bisque;
+  
+  
+}
+
+.addbtn{
+  color: rgb(69, 25, 6);
+  border-radius: 25px;
+  background-color: rgb(91, 194, 163);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 00px 30px;
+  border: 1px solid rgb(91, 194, 163);
+}
+
+.checkbox{
+  background-color:  rgb(69, 25, 6);
+
+}
+.Sort {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1; /* Make sure the select appears above other content */
+  background-color: bisque;
+  color: rgb(69, 25, 6);
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 2px solid rgb(232, 123, 34);
+  width: 250px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 600;
+  
+}
+
+.Sort option{
+  background-color: bisque;
+  color:  rgb(69, 25, 6);
+}
+
+.Sort option:checked{
+  background-color:  rgb(69, 25, 6);
+  color: rgb(251, 239, 224);
+
+}
+
+.clear{
+  position: absolute;
+  bottom:  60px;
+  right: 30%;
+  z-index: 1;
+  background-color: bisque;
+  color: rgb(42, 14, 2);
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 2px solid rgb(232, 123, 34);
+  width: 140px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 600;
+
+
+}
